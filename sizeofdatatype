@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char c='a';
+    int n=1;
+    float m=1.5;
+    double d=4.5;
+
+    cout<<"Size of char: "<<sizeof(c)<<" byte"<<endl;
+    cout<<"Size of int: "<<sizeof(n)<<" byte"<<endl;
+    cout<<"Size of float: "<<sizeof(m)<<" byte"<<endl;
+    cout<<"Size of double: "<<sizeof(d)<<" byte"<<endl;
+
+    return 0;
+}
